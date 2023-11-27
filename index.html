@@ -12,10 +12,10 @@
     <header>
       <h2>Virtual Piano</h2>
       <div class="flex column volume-slider">
-        <span>Volume</span><input type="range">
+        <span>Volume</span><input type="range" min="0" max="1" value="0.5" step="any">
       </div>
       <div class="flex column check-keys">
-        <span>Keys</span><input type="checkbox">
+        <span>Keys</span><input type="checkbox" checked>
       </div>
     </header>
     <ul class="piano">
