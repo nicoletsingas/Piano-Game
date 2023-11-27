@@ -72,4 +72,49 @@ header span{
 
 .piano{
   margin-top: 40px;
+  display: flex;
+}
+
+.piano .key{
+  user-select: none;
+  cursor: pointer;
+  list-style: none;
+  color: #A2A2A2;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.piano .white{
+  width: 70px;
+  height: 230px;
+  border-radius: 8px;
+  border: 1px solid black;
+  background-image: linear-gradient(#FFF 96%, #EEE 4%);
+}
+
+.piano .white.active{
+  box-shadow: inset -5px 5px 20px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to bottom,#FFF 0%, #EEE 100%);
+}
+
+.piano .black{
+  width: 44px;
+  height: 140px;
+  z-index: 2;
+  margin: 0 -22px;
+  border-radius: 0 0 5px 5px;
+  background-image: linear-gradient(#333, #000);
+}
+
+.piano .black.active{
+  box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.1);
+  background-image: linear-gradient(to bottom,#000, #434343);
+}
+
+.piano span{
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.13rem;
 }
