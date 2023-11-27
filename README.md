@@ -12,7 +12,7 @@
 Projeto desenvolvido para o curso de Desenvolvimento de Jogos com JavaScript da DIO em parceria com Ifood e Potencia Tech. Foi desenvolvido um simulador de piano, onde o usuario pode tocar clicando com mouse ou apertando teclas do teclado. Divirta-se!
 
 ## 2. Deploy📝
-### 📎[Acesse aqui]()
+### 📎[Acesse aqui](https://nicoletsingas.github.io/Piano-Game/)
 ![preview](src/assets/previewpng.png)
 
 ## 3. Tecnologias Utilizadas✅ 
